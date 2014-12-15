@@ -17,4 +17,4 @@ A generic container for spinning up node apps.
 * The docker file exposes port 80.
 
 ## Developing
-Pushing to this repo pushes to the official docker image.
+Pushing to this repo pushes to [the official docker image](https://registry.hub.docker.com/u/getable/nodeapp/).
