@@ -1,4 +1,4 @@
-# docker nodeapp ![](http://dockeri.co/image/getable/nodeapp)
+# docker nodeapp [![The official docker image](http://dockeri.co/image/getable/nodeapp)](https://registry.hub.docker.com/u/getable/nodeapp/)
 
 A generic container for spinning up node apps.
 
