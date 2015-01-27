@@ -10,7 +10,7 @@ ENV NODE_ENV production
 # ensure we have the latest npm and node
 RUN npm i -g npm \
   && npm i -g nave \
-  && nave usemain stable \
+  && nave usemain 0.10.36 \
   # constructble uses git, make sure we're up-to-date there
   && apt-get update -qq \
   && apt-get install -y git
