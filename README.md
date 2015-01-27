@@ -1,4 +1,4 @@
-# docker nodeapp
+# docker nodeapp ![](http://dockeri.co/image/getable/nodeapp)
 
 A generic container for spinning up node apps.
 
