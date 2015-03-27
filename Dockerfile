@@ -1,7 +1,7 @@
 # nodeapp
 # This is a pretty generic node app dockerfile
 
-FROM      node:0.10-onbuild
+FROM      node:0.10
 MAINTAINER Joey Baker <joey@getable.com>
 
 # set ENV
@@ -10,7 +10,7 @@ ENV NODE_ENV production
 # ensure we have the latest npm and node
 RUN npm i -g npm \
   && npm i -g nave \
-  && nave usemain 0.10.36 \
+  && nave usemain 0.10.38 \
   # constructble uses git, make sure we're up-to-date there
   && apt-get update -qq \
   && apt-get install -y git
