@@ -1,7 +1,7 @@
 # nodeapp
 # This is a pretty generic node app dockerfile
 
-FROM      dockerfile/nodejs
+FROM      node:0.10-onbuild
 MAINTAINER Joey Baker <joey@getable.com>
 
 # set ENV
